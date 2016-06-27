@@ -1,2 +1,4 @@
 NODE_MODULES/
+EXAMPLE/
+npm-debug*
 DS_*

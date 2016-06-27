@@ -2,11 +2,24 @@
   "name": "twigg-tweet-books",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bell": "^7.9.1",
+    "boom": "^3.2.2",
+    "hapi": "^13.4.1",
+    "hapi-auth-cookie": "^6.1.1",
+    "hapi-swagger": "^6.1.0",
+    "inert": "^4.0.0",
+    "joi": "^8.4.2",
+    "mongojs": "^2.4.0",
+    "node-uuid": "^1.4.7",
+    "vision": "^4.1.0"
+  }
 }
